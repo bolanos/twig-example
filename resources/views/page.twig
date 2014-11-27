@@ -1,0 +1,10 @@
+<h1>{{ welcome }}</h1>
+
+<h3>{{ address_name }}</h3>
+{{ address1 }}<br>
+{{ city }} {{ state }}, {{ zip }}<br>
+
+{{ todays_date }}: {{ date|localizeddate('medium', 'none', locale) }}<br>
+
+{{ were_paid }}: {{ amount|localizednumber('currency') }}
+<br>
